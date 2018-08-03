@@ -36,6 +36,8 @@ def position_taken?(index)
   end 
 end
 
+def valid_move?(index)
+  if @board
 
 
 
