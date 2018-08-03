@@ -37,7 +37,7 @@ def position_taken?(index)
 end
 
 def valid_move?(index)
-  if int.between?(0,8) == true
+  if index.between?(0,8) == true && position_taken? == false
     return true
     else
       return false
