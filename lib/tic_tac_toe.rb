@@ -43,6 +43,9 @@ def valid_move?(index)
       return false
     end
   end
+  
+  def turn
+    puts ""
 
 
 
