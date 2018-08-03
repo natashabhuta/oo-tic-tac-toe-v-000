@@ -37,8 +37,12 @@ def position_taken?(index)
 end
 
 def valid_move?(index)
-  if @board
-
+  if int.between?(0,8) == true
+    return true
+    else
+      return false
+    end
+  end
 
 
 
